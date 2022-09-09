@@ -18,6 +18,7 @@
 		8402907328C66CCC006F45E0 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8402907228C66CCC006F45E0 /* LocationsListView.swift */; };
 		8402907528C9E064006F45E0 /* LocationsPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8402907428C9E064006F45E0 /* LocationsPreviewView.swift */; };
 		848247D928CB1D92007E9EE3 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848247D828CB1D92007E9EE3 /* LocationMapAnnotationView.swift */; };
+		848247DB28CB24A0007E9EE3 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848247DA28CB24A0007E9EE3 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		8402907228C66CCC006F45E0 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		8402907428C9E064006F45E0 /* LocationsPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsPreviewView.swift; sourceTree = "<group>"; };
 		848247D828CB1D92007E9EE3 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		848247DA28CB24A0007E9EE3 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				8402906E28C641E7006F45E0 /* LocationsView.swift */,
+				848247DA28CB24A0007E9EE3 /* LocationDetailView.swift */,
 				848247D828CB1D92007E9EE3 /* LocationMapAnnotationView.swift */,
 				8402907428C9E064006F45E0 /* LocationsPreviewView.swift */,
 				8402907228C66CCC006F45E0 /* LocationsListView.swift */,
@@ -198,6 +201,7 @@
 				8402906F28C641E7006F45E0 /* LocationsView.swift in Sources */,
 				8402906A28C63726006F45E0 /* Location.swift in Sources */,
 				8402907528C9E064006F45E0 /* LocationsPreviewView.swift in Sources */,
+				848247DB28CB24A0007E9EE3 /* LocationDetailView.swift in Sources */,
 				8402905728C63442006F45E0 /* MapAdventuresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

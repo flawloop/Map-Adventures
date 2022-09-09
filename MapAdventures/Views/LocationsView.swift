@@ -11,12 +11,15 @@ import MapKit
 struct LocationsView: View {
     
     @EnvironmentObject private var vm: LocationsViewModel
+    let maxWidthForIPad: CGFloat = 700
     
     var body: some View {
         ZStack {
             mapLayer()
             VStack(spacing: 0) {
-                header.padding()
+                header
+                    .padding()
+                    .frame(maxWidth: maxWidthForIPad)
                 Spacer()
                 locationsPreviewStack()
             }
@@ -91,6 +94,7 @@ struct mapLayer: View {
 struct locationsPreviewStack: View {
     
     @EnvironmentObject private var vm: LocationsViewModel
+    let maxWidthForIPad: CGFloat = 700
     
     var body: some View {
         ZStack{
@@ -99,6 +103,8 @@ struct locationsPreviewStack: View {
                     LocationsPreviewView(location: location)
                         .shadow(color: Color.black.opacity(0.3), radius: 20)
                         .padding()
+                        .frame(maxWidth: maxWidthForIPad)
+                        .frame(maxWidth: .infinity)
                         .transition(.asymmetric(
                             insertion: .move(edge: .trailing),
                             removal: .move(edge: .leading)))
